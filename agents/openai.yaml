@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ling趣味配图"
+  short_description: "为文章和视频脚本生成固定卡通人物的趣味配图"
+  default_prompt: "Use $ling-funexplain to 为这篇文章或视频脚本设计并生成一组固定卡通人物的趣味配图。"
+
+policy:
+  allow_implicit_invocation: true
