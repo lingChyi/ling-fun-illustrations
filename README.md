@@ -83,28 +83,28 @@
 ### **只做规划**
 
 ```text
-使用 $ling-funexplain，分析这篇文章哪些位置值得配图。
+使用 $ling-fun-illustrations，分析这篇文章哪些位置值得配图。
 先不要生图，输出配图位置、核心意思、画面文字和 shot list。
 ```
 
 ### **生成文章插图**
 
 ```text
-使用 $ling-funexplain，为这篇文章设计并生成一组正文配图。
+使用 $ling-fun-illustrations，为这篇文章设计并生成一组正文配图。
 每张图只承接一个观点，保持固定卡通人物和统一视觉风格。
 ```
 
 ### **生成视频 B-roll 配图**
 
 ```text
-使用 $ling-funexplain，读取这份视频脚本，为缺少画面承接的段落生成 B-roll 配图。
+使用 $ling-fun-illustrations，读取这份视频脚本，为缺少画面承接的段落生成 B-roll 配图。
 请给出每张图对应的脚本位置和用途。
 ```
 
 ### **按 SRT 补图**
 
 ```text
-使用 $ling-funexplain，根据这份 SRT 和已有配图，只补尚未覆盖的时间段。
+使用 $ling-fun-illustrations，根据这份 SRT 和已有配图，只补尚未覆盖的时间段。
 需要连续动作的部分生成 2–4 张连续画面，并交付配图时间表。
 ```
 
@@ -125,13 +125,13 @@
 ### **Windows**
 
 ```powershell
-git clone https://github.com/WangYihao-Ling/Ling-fun-illustrations.git "$HOME\.agents\skills\ling-funexplain"
+git clone https://github.com/lingChyi/ling-fun-illustrations.git "$HOME\.agents\skills\ling-fun-illustrations"
 ```
 
 ### **macOS / Linux**
 
 ```bash
-git clone https://github.com/WangYihao-Ling/Ling-fun-illustrations.git ~/.agents/skills/ling-funexplain
+git clone https://github.com/lingChyi/ling-fun-illustrations.git ~/.agents/skills/ling-fun-illustrations
 ```
 
 安装后，重新打开支持 Agent Skills、参考图片输入和图片生成的客户端。
@@ -139,13 +139,13 @@ git clone https://github.com/WangYihao-Ling/Ling-fun-illustrations.git ~/.agents
 调用名称仍为：
 
 ```text
-$ling-funexplain
+$ling-fun-illustrations
 ```
 
 ## **仓库内容**
 
 ```text
-ling-funexplain/
+ling-fun-illustrations/
 ├── README.md
 ├── SKILL.md
 ├── agents/openai.yaml
@@ -265,28 +265,28 @@ The playful beat may come from excessive seriousness, literal interpretation, sc
 ### **Plan only**
 
 ```text
-Use $ling-funexplain to identify where this article needs illustrations.
+Use $ling-fun-illustrations to identify where this article needs illustrations.
 Do not generate images yet. Return placement, core idea, on-image copy, and a shot list.
 ```
 
 ### **Generate article illustrations**
 
 ```text
-Use $ling-funexplain to design and generate a set of inline illustrations for this article.
+Use $ling-fun-illustrations to design and generate a set of inline illustrations for this article.
 Let each image carry one idea and preserve the same recurring cartoon character.
 ```
 
 ### **Generate script-based B-roll**
 
 ```text
-Use $ling-funexplain to read this video script and create B-roll illustrations for sections that lack visual support.
+Use $ling-fun-illustrations to read this video script and create B-roll illustrations for sections that lack visual support.
 Map every image to its script position and editing purpose.
 ```
 
 ### **Fill an SRT timeline**
 
 ```text
-Use $ling-funexplain with this SRT and the existing image list. Fill only uncovered timestamps.
+Use $ling-fun-illustrations with this SRT and the existing image list. Fill only uncovered timestamps.
 Create 2–4 sequential frames where an action needs visual progression, and return a timestamped image plan.
 ```
 
@@ -307,13 +307,13 @@ Create 2–4 sequential frames where an action needs visual progression, and ret
 ### **Windows**
 
 ```powershell
-git clone https://github.com/WangYihao-Ling/Ling-fun-illustrations.git "$HOME\.agents\skills\ling-funexplain"
+git clone https://github.com/lingChyi/ling-fun-illustrations.git "$HOME\.agents\skills\ling-fun-illustrations"
 ```
 
 ### **macOS / Linux**
 
 ```bash
-git clone https://github.com/WangYihao-Ling/Ling-fun-illustrations.git ~/.agents/skills/ling-funexplain
+git clone https://github.com/lingChyi/ling-fun-illustrations.git ~/.agents/skills/ling-fun-illustrations
 ```
 
 Restart a client that supports Agent Skills, reference-image input, and image generation.
@@ -321,13 +321,13 @@ Restart a client that supports Agent Skills, reference-image input, and image ge
 The invocation name remains:
 
 ```text
-$ling-funexplain
+$ling-fun-illustrations
 ```
 
 ## **Repository contents**
 
 ```text
-ling-funexplain/
+ling-fun-illustrations/
 ├── README.md
 ├── SKILL.md
 ├── agents/openai.yaml

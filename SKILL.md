@@ -1,5 +1,5 @@
 ---
-name: ling-funexplain
+name: ling-fun-illustrations
 description: 为中文文章、博客、公众号、帖子、视频脚本、口播稿、SRT 和录屏内容设计并生成固定卡通人物的 16:9 趣味配图。用于文章正文插图、视频 B-roll 补画、时间轴补图、连续镜头、配图策略、shot list、图像生成和局部改图；把观点、情绪、流程、因果、对比、场景与抽象概念转成 `#F5F5F7` 浅灰底、主体居中、信息清楚且带冷幽默的手绘画面，并严格引用 `assets/character/` 中的身份与配色锚点。
 ---
 
