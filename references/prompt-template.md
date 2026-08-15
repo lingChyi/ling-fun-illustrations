@@ -3,6 +3,8 @@
 每张图单独生成。根据正文内容替换变量，不要把多张图拼在一起。
 
 ```text
+CRITICAL MANDATORY: Ling wears SOLID LAVENDER LIGHT PURPLE flat fill on short-sleeve T-shirt, color approximately #C69BC8. Purple shirt must be clearly visible on torso. NOT white shirt, NOT gray shirt, NOT cream shirt, NOT all-black-and-white outfit.
+
 Generate one standalone 16:9 horizontal Chinese knowledge-explainer illustration.
 
 Input references:
@@ -112,4 +114,10 @@ Edit the illustration while preserving Ling’s exact identity, fixed limb skele
 
 ```text
 Edit or regenerate the illustration so the factual relationship is immediately clear and correct. Keep Ling and the same visual style, but remove any gag, prop, label, or exaggeration that could misrepresent the concept. Retain at most one subtle deadpan reaction after the knowledge structure is clear.
+```
+
+纠正 Ling 上衣颜色：
+
+```text
+Edit or regenerate this illustration while preserving the knowledge relation, scene, Ling face, hair, glasses, fixed limb skeleton, expression, props, composition, labels, line style, aspect ratio, and #F5F5F7 background. Change ONLY Ling's short-sleeve T-shirt to a clearly visible solid lavender light purple flat fill, color approximately #C69BC8, matching the reference assets. The purple shirt must cover the entire visible torso area. Remove white, gray, cream, or uncolored line-art-only shirt. Do not change anything else.
 ```

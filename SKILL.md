@@ -83,6 +83,12 @@ Ling 必须亲自操作、验证或承受画面的知识关系，用一本正经
 
 如果用户明确要求“生成 / 输出 / 做图 / 帮我生成”，不要停下来等确认；用内置 `image_gen` 每张单独生成并执行三锚锁。不要把多张图拼在一张里，也不能只在系列首张使用角色参考。
 
+**每张 prompt 开头必须写（不可省略）：**
+
+```text
+CRITICAL MANDATORY: Ling wears SOLID LAVENDER LIGHT PURPLE flat fill on short-sleeve T-shirt, color approximately #C69BC8. Purple shirt must be clearly visible on torso. NOT white shirt, NOT gray shirt, NOT cream shirt, NOT all-black-and-white outfit.
+```
+
 每张图只讲一个核心结构。提示词必须包含：
 
 - 16:9 横版中文知识讲解正文配图
@@ -115,6 +121,7 @@ Ling 必须亲自操作、验证或承受画面的知识关系，用一本正经
 - Ling 只是装饰
 - 主角不是 Ling、出现无必要的重复 Ling，或同组图片中的 Ling 外形明显漂移
 - Ling 与角色资产不一致：柔和圆润脸、黑色长直发（中分）、细眉、温柔眼神、银色细框圆眼镜、浅紫色 T 恤或大头小身体比例发生漂移
+- Ling 上衣变成白色、浅灰、米色、无填色线稿或看不出 `#C69BC8` 淡紫平涂——直接判定失败，优先重生成
 - Ling 的任意可见四肢不是黑色单线和黑色圆点/椭圆端点，或出现紫色袖管手臂、肤色手掌手指、双线肢体、裤腿和鞋子
 - 当前图与前两张图使用同一眼神方向和同一套眉眼嘴组合，形成连续三张表情重复
 - 画面是纯图，文字没有传递核心信息，文字明显少于或多于文字配额，或者出现错字、乱码和难以辨认的字
